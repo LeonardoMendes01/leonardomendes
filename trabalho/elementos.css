@@ -1,0 +1,179 @@
+/* caracteristicas de texto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+    line-height: 1.5;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  
+  h3 {
+    font-size: 5rem;
+  }
+  
+  h4 {
+    font-size: 4.5rem;
+  }
+  
+  h5 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:var(--primary-color)
+ 
+  }
+  .gambiarra-um{    font-size: 2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--primary-color)
+
+  }
+  
+  h6 {
+    font-size: 1.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    margin-bottom: 3rem;
+  }
+  /* tabela contato */
+  
+  .responsive-table {
+    overflow: hidden;
+    overflow-x: auto;
+  }
+  
+  table {
+    min-width: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+  
+ 
+  table td, table th {
+    padding: 1rem;
+    text-align: center;
+    border: 0.1rem solid var(--light-gray-color)
+  }
+
+  .git-button {
+    display: inline-block;
+    padding: 0,625rem 1.25rem;
+    font-size: 0,0625rem;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 0.063rem;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+  }
+  .git-button:hover {
+    background-color: #45a049;
+  }
+
+  .form-container {
+    width: 100%;
+    max-width: 100.25rem;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-height: 100%;
+    height: 40rem;
+  }
+
+
+  .form-container.bg-light {
+    background-color: #f1ecec;
+    
+  }
+
+   .form-contact {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+/* contato imput */
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.875rem;
+    display: block;
+    color:var(--primary-color);
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 0.938rem;
+    border: 1px solid #ccc;
+    border-radius:0.313rem;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+
+
+
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 0.313rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #2980b9;
+  }
+
+
+  .center{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  height: 100vh; 
+  width: 100%;
+  }
